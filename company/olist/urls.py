@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from olist.seller.views import SellerViewSet
+from .seller.views import SellerViewSet
 
 
 router = routers.DefaultRouter()
